@@ -1,8 +1,9 @@
 applications:
 - path: .
-  memory: 128M
+  memory: 256M
   instances: 1
   domain: mybluemix.net
+  manifest: sdk-for-nodejs
   name: todo-aomarbv1
   host: todo-aomarbv1
   disk_quota: 1024M
